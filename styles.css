@@ -1,0 +1,324 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+}
+body .roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+body .barlow-condensed-thin {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+body .merriweather-light-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+main {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://safetyculture.com/_next/image/?url=https%3A%2F%2Fwp-website.safetyculture.com%2Fwp-content%2Fuploads%2Fsites%2F3%2F2023%2F11%2FConstruction.jpeg&w=3840&q=75);
+  background-size: cover;
+}
+main .whatsapp {
+  width: 50px;
+  height: 50px;
+  z-index: 0;
+}
+main .whatsapp i {
+  padding: 30px;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 2.5rem;
+  color: green;
+}
+main header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.726);
+  top: 0;
+  position: fixed;
+}
+main header nav img {
+  width: 15vh;
+  height: 15vh;
+  text-align: left;
+  margin: 10px;
+}
+main header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 80%;
+  align-items: center;
+}
+main header nav ul li {
+  list-style: none;
+  cursor: pointer;
+}
+main header nav ul li:hover {
+  color: #0d8b5f;
+  border-bottom: 1px solid green;
+}
+main .bannerframe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main .bannerframe .banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Barlow Condensed;
+}
+main .bannerframe .banner h1 {
+  font-size: 5rem;
+  color: white;
+  line-height: 2px;
+  margin-bottom: 30px;
+}
+main .bannerframe .banner p {
+  font-size: 1.4rem;
+  color: white;
+  font-family: Merriweather;
+  font-style: italic;
+}
+main .bannerframe .banner button {
+  height: 50px;
+  width: 120px;
+  border-radius: 6px;
+  background-color: #0d8b5f;
+  border: #0d8b5f;
+  color: white;
+}
+main .bannerframe .banner button:hover {
+  background-color: transparent;
+  border: 3px solid #0d8b5f;
+  cursor: pointer;
+}
+main .aboutframe {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+main .aboutframe .about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  gap: 90px;
+}
+main .aboutframe .about aside img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: right;
+     object-position: right;
+  border-radius: 15px;
+}
+main .aboutframe .about .aboutimage {
+  width: 100%;
+  height: 400px;
+}
+main .aboutframe .about .abouttext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+main .aboutframe .about .abouttext h1 {
+  color: #0d8b5f;
+  border-bottom: 2px solid;
+  width: 157px;
+  text-wrap: nowrap;
+  font-size: 2rem;
+  margin: 0;
+  margin-bottom: 10px;
+}
+main .aboutframe .about .abouttext p {
+  font-size: 1.2rem;
+  line-height: 30px;
+  text-align: left;
+}
+main .aboutframe .about .abouttext span {
+  color: #F2BE22;
+}
+main .aboutframe hr {
+  color: #0d8b5f;
+  width: 70%;
+  border: 2px solid;
+}
+main .aboutframe .quoteframe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0;
+  color: #000;
+}
+main .aboutframe .quoteframe .quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+main .aboutframe .quoteframe .quote #image {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+main .aboutframe .quoteframe .quote #image img {
+  width: 60%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .aboutframe .quoteframe .quote #text {
+  width: 60%;
+  padding: 10px;
+  margin-right: 50px;
+}
+main .aboutframe .quoteframe .quote #text p {
+  font-size: 1.5rem;
+}
+main .aboutframe .standframe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .aboutframe .standframe .stand {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  gap: 60px;
+}
+main .aboutframe .standframe #standimage {
+  width: 80%;
+  height: 90%;
+}
+main .aboutframe .standframe #standimage img {
+  width: 100%;
+  height: 100%;
+}
+main .aboutframe .standframe #standtext {
+  width: 90%;
+}
+main .aboutframe .standframe #standtext h1 {
+  font-size: 2rem;
+  border-bottom: 2px solid #0d8b5f;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #0d8b5f;
+}
+main .aboutframe .standframe #standtext span {
+  color: #F2BE22;
+}
+main .aboutframe .standframe #standtext p {
+  font-size: 1.2rem;
+  text-align: left;
+}
+main footer {
+  background-color: transparent;
+  padding-left: 40px;
+  padding-top: 30px;
+  height: 45vh;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+  background-color: transparent;
+}
+main footer .footerframe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+main footer .footerframe #logoname {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main footer .footerframe #logoname h2 {
+  margin: 0;
+  margin-top: 8px;
+  padding: 0;
+}
+main footer .footerframe #logoname img {
+  width: 120px;
+  height: 100px;
+}
+main footer .footerframe ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 55%;
+  height: 100px;
+}
+main footer .footerframe ul li {
+  list-style: none;
+}
+main footer .footerframe ul li:nth-child(2):hover {
+  color: red;
+}
+main footer .footerframe ul li:nth-child(3):hover {
+  color: rgb(177, 22, 118);
+}
+main footer .footerframe ul li:nth-child(4):hover {
+  color: rgb(59, 59, 245);
+}
+main footer .footerframe ul li:nth-child(5):hover {
+  color: #1877F2;
+}
+main footer .footerframe ul li:hover {
+  cursor: pointer;
+  color: rgb(59, 206, 255);
+}
+main footer .footerframe button {
+  width: 120px;
+  height: 50px;
+  background-color: #0d8b5f;
+  border-radius: 5px;
+  border: 2px solid #0d8b5f;
+  color: white;
+  font-weight: bold;
+}
+main footer .footerframe button:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+main p {
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}/*# sourceMappingURL=styles.css.map */
